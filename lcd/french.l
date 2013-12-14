@@ -5,7 +5,7 @@
 (de print-msg ()
    (mizar32-lcd-clear)
    # define the French accent character.
-   (mizar32-lcd-definechar 0 '(1 2 14 17 31 16 14 0))
+   (mizar32-lcd-definechar 0 (1 2 14 17 31 16 14 0))
    # print Liberté·
    (mizar32-lcd-prinl 'Libert 0 ",")
    # print égalité·
