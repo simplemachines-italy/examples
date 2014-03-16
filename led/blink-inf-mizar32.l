@@ -2,12 +2,6 @@
 # Now, let's make the Mizar32 do something
 # quickly in PicoLisp.
 
-(setf led 'PB_29)
-
-# A simple delay function
-(de delay ()
-   (tmr-delay 50000) )
-
 # Which pin to blink?
 (setq led 'PB_29)
 
