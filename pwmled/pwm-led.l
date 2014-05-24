@@ -17,14 +17,12 @@
 (pwm-start pwmid)
 
 (loop
-   (setq i nsteps) # An iterator for dec
    # Fade the LED up
    (for duty nsteps
       (pwm-setup pwmid speed duty)
       (tmr-delay *tmr-sys-timer* delay) )
    
    # Fade the LED down
-   (until (=0 i)
+   (for (i nsteps (ge0 i) (dec i))
       (pwm-setup pwmid speed i)
-      (tmr-delay *tmr-sys-timer* delay)
-      (setq i (- i 1)) ) )
+      (tmr-delay *tmr-sys-timer* delay) ) )
