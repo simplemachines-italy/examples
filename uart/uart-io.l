@@ -12,8 +12,8 @@
    (uart-getchar uartid timeout timerid) )
 
 # Get a character from UART
-(setq reply (get-char-uart))
+(setq reply "")
 
-(until (= "" reply)
+(until (=T reply)
    (uart-write uartid prompt)
    (setq reply (get-char-uart)) )
