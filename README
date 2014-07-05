@@ -1,13 +1,29 @@
-Welcome to eLua examples.
 
-This is a little project that maintains some basic and intermediate level examples of eLua
-code running on it's supported platforms.
+Welcome to Alcor6L examples!
+(A fork of eLua examples, github.com/elua/examples.git)
+
+This is a little project that maintains some basic and intermediate
+level examples of Alcor6L code running on it's supported platforms.
 Each example is kept separetely in it's own sub-folder.
-These examples (and others that became individual projects also found on our github repo) used to be part of our distros, included in the ROMFS. They were removed from the distro to keep it smaller, cleaner and not oriented to a single type of audience.
 
-You are welcomed to extend these examples to new platfoms and to add new ones too. 
-Anything that can help new users to quickly understand the basics of eLua is
-welcomed here.
-For information and tutorials about each of these examples, please refer to their pages on the eLua User Labs wiki at http://wiki.eluaproject.net/Projects
+These examples (and others that became individual projects also found
+on our github repo) used to be part of our distros, included in the
+ROMFS. They were removed from the distro to keep it smaller, cleaner
+and not oriented to a single type of audience.
 
-The main site of the eLua Project is http://www.eluaproject.net
+You are welcome to extend these examples to new platfoms and to add
+new ones too! Anything that can help new users to quickly understand
+the basics of Alcor6L/eLua is welcome here.
+
+For information and tutorials about each of these examples, please
+refer to:
+
++--------+-----------+----------------------------+------------------------------------+
+|Language|Description|Main website                |Resource link                       |
++--------+-----------+----------------------------+------------------------------------+
+|eLua    |eLua user  |http://www.eluaproject.net  |http://wiki.eluaproject.net/Projects|
+|        |labs wiki  |                            |                                    |
++--------+-----------+----------------------------+------------------------------------+
+|Alcor6L |Mizar32    |http://www.simplemachines.it|http://en.wikibooks.org/wiki/Mizar32|
+|        |wiki book  |                            |                                    |
++--------+-----------+----------------------------+------------------------------------+
