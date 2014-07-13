@@ -18,12 +18,12 @@ the basics of Alcor6L/eLua is welcome here.
 For information and tutorials about each of these examples, please
 refer to:
 
-+--------+-----------+----------------------------+------------------------------------+
-|Language|Description|Main website                |Resource link                       |
-+--------+-----------+----------------------------+------------------------------------+
-|eLua    |eLua user  |http://www.eluaproject.net  |http://wiki.eluaproject.net/Projects|
-|        |labs wiki  |                            |                                    |
-+--------+-----------+----------------------------+------------------------------------+
-|Alcor6L |Mizar32    |http://www.simplemachines.it|http://en.wikibooks.org/wiki/Mizar32|
-|        |wiki book  |                            |                                    |
-+--------+-----------+----------------------------+------------------------------------+
++--------+-----------+------------------------------------+
+|Language|Description|Resource link                       |
++--------+-----------+------------------------------------+
+|eLua    |eLua user  |http://wiki.eluaproject.net/Projects|
+|        |labs wiki  |                                    |
++--------+-----------+------------------------------------+
+|Alcor6L |Mizar32    |http://en.wikibooks.org/wiki/Mizar32|
+|        |wiki book  |                                    |
++--------+-----------+------------------------------------+
